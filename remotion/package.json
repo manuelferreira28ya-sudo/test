@@ -1,0 +1,20 @@
+{
+  "name": "sailorpiece-walkthrough",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/index.ts SailorPieceWalkthrough out/sailorpiece-walkthrough.mp4",
+    "share": "bash ./scripts-render-and-share.sh"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remotion": "^4.0.215"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25"
+  }
+}
